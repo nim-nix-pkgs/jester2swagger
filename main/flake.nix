@@ -11,6 +11,7 @@
   inputs.src-jester2swagger-main.ref   = "refs/heads/main";
   inputs.src-jester2swagger-main.owner = "ThomasTJdev";
   inputs.src-jester2swagger-main.repo  = "jester2swagger";
+  inputs.src-jester2swagger-main.dir   = "";
   inputs.src-jester2swagger-main.type  = "github";
   
   inputs."cligen".owner = "nim-nix-pkgs";
