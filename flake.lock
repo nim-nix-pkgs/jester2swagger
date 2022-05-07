@@ -3,20 +3,22 @@
     "cligen": {
       "inputs": {
         "flakeNimbleLib": [
+          "jester2swagger-main",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "jester2swagger-main",
           "nixpkgs"
         ],
         "src-cligen-v1_5_23": "src-cligen-v1_5_23"
       },
       "locked": {
         "dir": "v1_5_23",
-        "lastModified": 1651917786,
-        "narHash": "sha256-iuuvLka4OYQfxEGWAvXG95W2qO8754zCHAVlmF/R92A=",
+        "lastModified": 1651609682,
+        "narHash": "sha256-XK66Xbvp2yNwjxuJ6pCEhE7CvTchqYMEAKHwd9gR7L4=",
         "owner": "nim-nix-pkgs",
         "repo": "cligen",
-        "rev": "7f43944b33da6bedef706460e55d07a282854090",
+        "rev": "d1db6bc462c146fb7a72cd1965da6f8fa05c3965",
         "type": "github"
       },
       "original": {
@@ -48,6 +50,34 @@
         "type": "github"
       }
     },
+    "jester2swagger-main": {
+      "inputs": {
+        "cligen": "cligen",
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-jester2swagger-main": "src-jester2swagger-main"
+      },
+      "locked": {
+        "dir": "main",
+        "lastModified": 1651609998,
+        "narHash": "sha256-HT+NMnXiWTf7uf6gAI4XbmR+bhcG1E+wABKEfJix4Bs=",
+        "owner": "nim-nix-pkgs",
+        "repo": "jester2swagger",
+        "rev": "bcf699875e65134c2a0ccb7b963f896b124c40da",
+        "type": "github"
+      },
+      "original": {
+        "dir": "main",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "jester2swagger",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "narHash": "sha256-7sWpWRO0IsBP5jm9qCrpuzDkWC7UAghiCmZZ+1uqHKo=",
@@ -61,10 +91,9 @@
     },
     "root": {
       "inputs": {
-        "cligen": "cligen",
         "flakeNimbleLib": "flakeNimbleLib",
-        "nixpkgs": "nixpkgs",
-        "src-jester2swagger-main": "src-jester2swagger-main"
+        "jester2swagger-main": "jester2swagger-main",
+        "nixpkgs": "nixpkgs"
       }
     },
     "src-cligen-v1_5_23": {
