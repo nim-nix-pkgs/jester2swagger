@@ -7,14 +7,6 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs."jester2swagger-main".dir   = "main";
-  inputs."jester2swagger-main".owner = "nim-nix-pkgs";
-  inputs."jester2swagger-main".ref   = "master";
-  inputs."jester2swagger-main".repo  = "jester2swagger";
-  inputs."jester2swagger-main".type  = "github";
-  inputs."jester2swagger-main".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."jester2swagger-main".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
-  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
