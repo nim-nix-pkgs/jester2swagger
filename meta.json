@@ -7,7 +7,7 @@
   "license": "MIT",
   "web": "https://github.com/ThomasTJdev/jester2swagger",
   "refs": [
-    "fatal: unable to access 'https://github.com/ThomasTJdev/jester2swagger/': Could not resolve host: github.com",
+    "fatal: unable to access 'https://github.com/ThomasTJdev/jester2swagger/': Failed to connect to github.com port 443 after 131022 ms: Connection timed out",
     ""
   ],
   "heads": []
