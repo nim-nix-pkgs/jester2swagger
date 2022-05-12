@@ -7,8 +7,49 @@
   "license": "MIT",
   "web": "https://github.com/ThomasTJdev/jester2swagger",
   "refs": [
-    "fatal: unable to access 'https://github.com/ThomasTJdev/jester2swagger/': Failed to connect to github.com port 443 after 131022 ms: Connection timed out",
+    "refs/heads/main",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "jester2swagger",
+      "version": "0.1.0",
+      "author": "ThomasTJdev",
+      "desc": "Generate Swagger JSON from Jester-routes",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "jester2swagger"
+      ],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.4.8",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.4.8"
+          }
+        },
+        {
+          "name": "cligen",
+          "str": ">= 1.5.3",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.5.3"
+          }
+        }
+      ],
+      "bin": [
+        "jester2swagger"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/heads/main"
+    }
+  ]
 }
