@@ -63,11 +63,11 @@
       },
       "locked": {
         "dir": "main",
-        "lastModified": 1658015345,
-        "narHash": "sha256-zCUlwtkYJGF/GXEhF2nB+q2r/jI7OezRsbnmmu7ItBM=",
+        "lastModified": 1658018817,
+        "narHash": "sha256-RkYcDOBWXqNUzjC5esWOw0CX9Q5seLE49f2OE1x8vr0=",
         "owner": "nim-nix-pkgs",
         "repo": "jester2swagger",
-        "rev": "b8724f70581fab8012e1ec39999ddeb874849e2f",
+        "rev": "049deaf4820be245c1baadc635ec12e896188292",
         "type": "github"
       },
       "original": {
