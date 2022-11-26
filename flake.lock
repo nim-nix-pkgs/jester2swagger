@@ -212,11 +212,11 @@
       },
       "locked": {
         "dir": "main",
-        "lastModified": 1669417854,
-        "narHash": "sha256-kt8hbkMedRbX8iHN3WLcdHaEckMbn7DFgGBWbg1xpQI=",
+        "lastModified": 1669431897,
+        "narHash": "sha256-YimBzyUtZB5rU4jzgYM5+6fD7SLtpSZBQ8gIJ1brvEk=",
         "owner": "nim-nix-pkgs",
         "repo": "jester2swagger",
-        "rev": "dc6e726b66bfb720bcd140fe05c83124b64ff576",
+        "rev": "781827fc0f7e742fd97f001a6c74fe86cd9697a5",
         "type": "github"
       },
       "original": {
